@@ -44,7 +44,7 @@ class LinkedList:
             return elements
         else:
             cur=self.head
-            while cur.next!=None:
+            while cur!=None:
                 elements.append(cur.data)
                 cur=cur.next
 
@@ -55,15 +55,15 @@ class LinkedList:
 
 myLinked_List=LinkedList()
 
-myLinked_List.append(10)
-myLinked_List.append(20)
-myLinked_List.append(30)
-myLinked_List.append(40)
-myLinked_List.append(50)
+# myLinked_List.append(10)
+# myLinked_List.append(20)
+# myLinked_List.append(30)
+# myLinked_List.append(40)
+# myLinked_List.append(50)
 
-myLinked_List.display()
+# myLinked_List.display()
 
-print(myLinked_List.length())
+# print(myLinked_List.length())
 
 
 
